@@ -1,16 +1,16 @@
-h1{
+/*h1{
     color: #f07167;
     text-align: center;
-}
+}*/
 
 /*color del link antes de ser percionado*/
-a:link{
+/*a:link{
     color:#fb8500;
     text-decoration: none;
-}
+}*/
 
 /*color del link cuando fue digitado*/
-a:visited{
+/*a:visited{
     color:#219ebc;
     text-decoration: dashed;
 }
@@ -23,10 +23,10 @@ a:hover{
 a:active{
     color: #023047;
     text-decoration: underline;
-}
+}*/
 
 /*Formato de botón para un link*/
-/*h2{
+h2{
     color:#560bad;
 }
 
@@ -36,7 +36,8 @@ a:link, a:visited{
     padding: 15px 25px;
     text-align: center;
     text-decoration: none;
+    display: inline-block;
 }
 a:hover, a:active{
     background-color: #f72585;
-}*/
+}
