@@ -1,0 +1,28 @@
+h1{
+    color: #f07167;
+    text-align: center;
+}
+
+/*color del link antes de ser percionado*/
+a:link{
+    color:#fb8500;
+    text-decoration: none;
+}
+
+/*color del link cuando fue digitado*/
+a:visited{
+    color:#219ebc;
+    text-decoration: dashed;
+}
+
+a:hover{
+    color: #8ecae8;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #023047;
+    text-decoration: underline;
+}
+
+
