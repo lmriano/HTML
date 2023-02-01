@@ -6,4 +6,14 @@ p{
     color:black;
     /*background-color: aquamarine;*/
 }
+/* box model css */
+h2 p{
+    color:black;
+    /*background-color: aquamarine;*/
+    font-size: small;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 5px solid blue;
+    margin:20px;
+}
 
