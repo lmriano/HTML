@@ -5,8 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios HTML</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <h1>Formularios en HTML</h1>
+    <form>
+    <!-- <form novalidate> -->
+        <label for="nombre">Nombre: </label><br>
+        <!-- Valor ya digitado -->
+        <!-- <input type="text" id="nombre" name="nombre" value="Carlos"><br> -->
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+
+        <label for="apellido">Apellido: </label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+    </form>
+    <hr>
     
 </body>
 </html>
