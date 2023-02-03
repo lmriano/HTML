@@ -1,4 +1,8 @@
-span{
+*{
+    margin:0;
+    padding:0;
+}
+.span{
     color: red;
     border: 1px solid black;
 }
@@ -6,6 +10,13 @@ span{
 h1{
     color: #f72585;
     text-align: center;
+    margin:10px;
+}
+
+.titulo{
+    color: #f72585;
+    text-align: center;
+    margin:30px;
 }
 h2{
     color: #3f37c9;
@@ -13,8 +24,18 @@ h2{
 p{
     color: #457b9d;
 }
-div{
+.tarjeta{
     border: 10px solid #560bad;
     background-color: rgb(225,225,225);
     text-align: center;
+    margin:15px;
+    padding: 10px 20px;
+}
+
+.titulo-uno{
+    color:#f72585;
+}
+hr{
+    background-color: #fff; 
+	border-top: 2px dashed #8c8b8b;
 }
