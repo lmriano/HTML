@@ -73,5 +73,42 @@
         <input type="submit" value="Enviar">
         <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
     </form>
+    <hr>
+    <h2>Radiobuttons y checkboxes</h2>
+    <form>
+        <label for="nombre">Nombre: </label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+
+        <label for="apellido">Apellido: </label><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="Escribe tu email"><br>
+
+        <!-- step para numero decimales -->
+        <label for="edad">Edad: </label><br>
+        <input type="number" id="edad" name="edad" placeholder="Escribe tu edad" step="any"><br>
+
+        <!-- para seleccionar un solo valor el name tiene que ser el mismo -->
+        <label>Género: </label><br>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino"> Femenino</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino"> Masculino</label>
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+
+        <hr><br>
+        <label>Género música favorita</label><br>
+        <input type="checkbox" id="clasica" name="musica" value="clasica">
+        <label>Clásica</label>
+        <input type="checkbox" id="popular" name="musica" value="popular">
+        <label>Popular</label>
+        <input type="checkbox" id="reggaeton" name="musica" value="reggaeton">
+        <label>Reggaeton</label><br>
+        <input type="submit" value="Enviar">
+    </form>
 </body>
 </html>
