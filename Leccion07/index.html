@@ -1,138 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularios HTML</title>
-    <link rel="stylesheet" href="estilos.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
     <h1>Formularios en HTML</h1>
     <form>
-    <!-- <form novalidate> -->
-        <label for="nombre">Nombre: </label><br>
-        <!-- Valor ya digitado -->
-        <!-- <input type="text" id="nombre" name="nombre" value="Carlos"><br> -->
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+      <!-- <form novalidate> -->
+      <label for="nombre">Nombre: </label><br />
+      <!-- Valor ya digitado -->
+      <!-- <input type="text" id="nombre" name="nombre" value="Carlos"><br> -->
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required="true"
+      /><br />
 
-        <label for="apellido">Apellido: </label><br>
-        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+      <label for="apellido">Apellido: </label><br />
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Escribe tu apellido"
+        required="true"
+      /><br />
+      <br />
+      <input type="submit" value="Enviar" />
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Enviar sin validar"
+      />
     </form>
-    <hr>
+    <hr />
     <!-- Método get y post -->
     <h1>Método get y post</h1>
     <h2>GET</h2>
     <form method="get">
-        <label for="nombre">Nombre: </label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+      <label for="nombre">Nombre: </label><br />
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required="true"
+      /><br />
 
-        <label for="apellido">Apellido: </label><br>
-        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+      <label for="apellido">Apellido: </label><br />
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Escribe tu apellido"
+        required="true"
+      /><br />
 
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+      <br />
+      <input type="submit" value="Enviar" />
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Enviar sin validar"
+      />
     </form>
     <h2>POST</h2>
     <form method="post">
-        <label for="nombre">Nombre: </label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+      <label for="nombre">Nombre: </label><br />
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required="true"
+      /><br />
 
-        <label for="apellido">Apellido: </label><br>
-        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+      <label for="apellido">Apellido: </label><br />
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Escribe tu apellido"
+        required="true"
+      /><br />
 
-        <label for="password">Password: </label><br>
-        <input type="password" id="password" name="password" required="true"><br>
+      <label for="password">Password: </label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        required="true"
+      /><br />
 
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+      <br />
+      <input type="submit" value="Enviar" />
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Enviar sin validar"
+      />
     </form>
 
-    <hr>
+    <hr />
     <h2>Formulario</h2>
     <form>
-        <label for="nombre">Nombre: </label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+      <label for="nombre">Nombre: </label><br />
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required="true"
+      /><br />
 
-        <label for="apellido">Apellido: </label><br>
-        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+      <label for="apellido">Apellido: </label><br />
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Escribe tu apellido"
+        required="true"
+      /><br />
 
-        <label for="email">Email: </label><br>
-        <input type="email" id="email" name="email" placeholder="Escribe tu email"><br>
+      <label for="email">Email: </label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Escribe tu email"
+      /><br />
 
-        <!-- step para numero decimales -->
-        <label for="edad">Edad: </label><br>
-        <input type="number" id="edad" name="edad" placeholder="Escribe tu edad" step="any"><br>
+      <!-- step para numero decimales -->
+      <label for="edad">Edad: </label><br />
+      <input
+        type="number"
+        id="edad"
+        name="edad"
+        placeholder="Escribe tu edad"
+        step="any"
+      /><br />
 
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+      <br />
+      <input type="submit" value="Enviar" />
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Enviar sin validar"
+      />
     </form>
-    <hr>
+    <hr />
     <h2>Radiobuttons y checkboxes</h2>
     <form>
-        <label for="nombre">Nombre: </label><br>
-        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required="true"><br>
+      <label for="nombre">Nombre: </label><br />
+      <input
+        type="text"
+        id="nombre"
+        name="nombre"
+        placeholder="Escribe tu nombre"
+        required="true"
+      /><br />
 
-        <label for="apellido">Apellido: </label><br>
-        <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required="true"><br>
+      <label for="apellido">Apellido: </label><br />
+      <input
+        type="text"
+        id="apellido"
+        name="apellido"
+        placeholder="Escribe tu apellido"
+        required="true"
+      /><br />
 
-        <label for="email">Email: </label><br>
-        <input type="email" id="email" name="email" placeholder="Escribe tu email"><br>
+      <label for="email">Email: </label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Escribe tu email"
+      /><br />
 
-        <!-- step para numero decimales -->
-        <label for="edad">Edad: </label><br>
-        <input type="number" id="edad" name="edad" placeholder="Escribe tu edad" step="any"><br>
+      <!-- step para numero decimales -->
+      <label for="edad">Edad: </label><br />
+      <input
+        type="number"
+        id="edad"
+        name="edad"
+        placeholder="Escribe tu edad"
+        step="any"
+      /><br />
 
-        <!-- para seleccionar un solo valor el name tiene que ser el mismo -->
-        <label>Género: </label><br>
-        <input type="radio" id="femenino" name="genero" value="femenino">
-        <label for="femenino"> Femenino</label>
-        <input type="radio" id="masculino" name="genero" value="masculino">
-        <label for="masculino"> Masculino</label>
+      <!-- para seleccionar un solo valor el name tiene que ser el mismo -->
+      <label>Género: </label><br />
+      <input type="radio" id="femenino" name="genero" value="femenino" />
+      <label for="femenino"> Femenino</label>
+      <input type="radio" id="masculino" name="genero" value="masculino" />
+      <label for="masculino"> Masculino</label>
 
-        <br>
-        <input type="submit" value="Enviar">
-        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validar">
+      <br />
+      <input type="submit" value="Enviar" />
+      <input
+        type="submit"
+        formnovalidate="formnovalidate"
+        value="Enviar sin validar"
+      />
 
-        <hr>
-        <label>Género música favorita</label><br>
-        <input type="checkbox" id="clasica" name="musica" value="clasica">
-        <label for="clasica">Clásica</label>
-        <input type="checkbox" id="popular" name="musica" value="popular">
-        <label for="popular">Popular</label>
-        <input type="checkbox" id="reggaeton" name="musica" value="reggaeton">
-        <label for="reggaeton">Reggaeton</label><br>
-        <input type="submit" value="Enviar">
+      <hr />
+      <label>Género música favorita</label><br />
+      <input type="checkbox" id="clasica" name="musica" value="clasica" />
+      <label for="clasica">Clásica</label>
+      <input type="checkbox" id="popular" name="musica" value="popular" />
+      <label for="popular">Popular</label>
+      <input type="checkbox" id="reggaeton" name="musica" value="reggaeton" />
+      <label for="reggaeton">Reggaeton</label><br />
+      <input type="submit" value="Enviar" />
 
-        <hr>
-        <label for="autos">Marca auto favorita</label><br>
-        <select id="autos" name="autos">
-            <option value="volvo">Volvo</option>
-            <option value="bmw">BMW</option>
-            <option value="jaguar">Jaguar</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-            <!-- para que seleccione este como primera opcion -->
-            <option value="none" selected="true">-</option>
-        </select>
-        
-        <br>
-        <label for="comentario">Comentario:</label><br>
-        <textarea id="comentario" name="comentario" rows="2" cols="30">
+      <hr />
+      <label for="autos">Marca auto favorita</label><br />
+      <select id="autos" name="autos">
+        <option value="volvo">Volvo</option>
+        <option value="bmw">BMW</option>
+        <option value="jaguar">Jaguar</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+        <!-- para que seleccione este como primera opcion -->
+        <option value="none" selected="true">-</option>
+      </select>
+
+      <br />
+      <label for="comentario">Comentario:</label><br />
+      <textarea id="comentario" name="comentario" rows="2" cols="30">
 Este es mi comentario    
-        </textarea><br>
-        <input type="submit" value="Enviar">
+        </textarea
+      ><br />
+      <input type="submit" value="Enviar" />
 
-        
+      <hr />
+      <h1>Formulario</h1>
+      <form>
+        <!-- recuadro o marco fielset-->
+        <fieldset> 
+            <!-- título en recuadro -->
+            <legend>Datos persona: </legend>
+          <!-- <form novalidate> -->
+          <label for="nombre">Nombre: </label><br />
+          <!-- Valor ya digitado -->
+          <!-- <input type="text" id="nombre" name="nombre" value="Carlos"><br> -->
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required="true"
+          /><br />
 
-
-
+          <label for="apellido">Apellido: </label><br />
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            placeholder="Escribe tu apellido"
+            required="true"
+          /><br />
+          <br />
+          <input type="submit" value="Enviar" />
+          <input
+            type="submit"
+            formnovalidate="formnovalidate"
+            value="Enviar sin validar"
+          />
+        </fieldset>
+      </form>
+      <hr />
     </form>
-</body>
+  </body>
 </html>
